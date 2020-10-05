@@ -66,6 +66,13 @@
     <Compile Include="Assets\Scripts\CameraMotion.cs" />
     <Compile Include="Assets\Scripts\DoorMotion.cs" />
     <Compile Include="Assets\Scripts\GlassDoorMotion.cs" />
+    <Compile Include="Assets\Scripts\NpcMotion.cs" />
+    <Compile Include="Assets\Scripts\NpcSpartanMotion.cs" />
+    <Compile Include="Assets\Scripts\NpcZombiMotion.cs" />
+    <Compile Include="Assets\Scripts\Path.cs" />
+    <Compile Include="Assets\Scripts\RedHumanoidMotion.cs" />
+    <Compile Include="Assets\Scripts\TargetBehaviour.cs" />
+    <None Include="Assets\SpartanKing\animations.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

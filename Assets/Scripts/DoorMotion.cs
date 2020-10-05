@@ -7,6 +7,7 @@ public class DoorMotion : MonoBehaviour
     public Animator animator;
     public bool isOpen;
     public GameObject doorAxis;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,9 @@ public class DoorMotion : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("MainCamera"))
+        
+        if (/*other.CompareTag("MainCamera")*/ other.gameObject.tag == "RedWarrior"
+                || other.CompareTag("Spartan")) 
         {
             animator.SetTrigger("Open");
             isOpen = true;
